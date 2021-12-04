@@ -55,9 +55,16 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen}  options={{ title: 'APP Tabuada' }} />
-        <Stack.Screen name="TabuadaDo2" component={TabuadaDo2} options={{ title: 'Tabuada do 2'}} />
-        <Stack.Screen name="TabuadaDo3" component={TabuadaDo3} options={{ title: 'Tabuada do 3'}} />
+        <Stack.Screen name="Home" component={HomeScreen}  options={{ 
+            title: 'APP Tabuada',
+            headerStyle:{backgroundColor:"#E6E6FA"},
+            headerTitleStyle:{fontWeight:'bold'} }} />
+        <Stack.Screen name="TabuadaDo2" component={TabuadaDo2} options={{ title: 'Tabuada do 2',
+            headerStyle:{backgroundColor:"#E6E6FA"},
+            headerTitleStyle:{fontWeight:'bold'}}} />
+        <Stack.Screen name="TabuadaDo3" component={TabuadaDo3} options={{ title: 'Tabuada do 3',
+            headerStyle:{backgroundColor:"#E6E6FA"},
+            headerTitleStyle:{fontWeight:'bold'}}} />
       </Stack.Navigator>
     </NavigationContainer>
   );

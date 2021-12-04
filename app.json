@@ -28,6 +28,7 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "O projeto tem como objetivo ensinar como navegar entre telas no React Native"
+    "description": "O projeto tem como objetivo  navegar entre telas no React Native",
+    "githubUrl": "https://github.com/jviictor/appTabuada.git"
   }
 }
