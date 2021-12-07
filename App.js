@@ -65,7 +65,7 @@ export default function App() {
         <Stack.Screen name="TabuadaDo3" component={TabuadaDo3} options={{ title: 'Tabuada do 3',
             headerStyle:{backgroundColor:"#E6E6FA"},
             headerTitleStyle:{fontWeight:'bold'}}} />
-      </Stack.Navigator>
+      </Stack.Navigator> 
     </NavigationContainer>
   );
 }
